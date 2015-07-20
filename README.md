@@ -1,4 +1,5 @@
 notes
+====================
 
 - I consolodated latitude && longitude into a single json param since I feel like it would reduce the payload a bit - every bit counts. The serve that would return this would just consolodate that for us.
 - All service responses are using stubs - no api integration was built out for this demo as time did not allow it
