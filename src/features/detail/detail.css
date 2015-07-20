@@ -1,0 +1,23 @@
+.beer-image {
+	height: 60px;
+	width: 60px;
+}
+
+.count-control {
+	font-size: 30px;
+	float: right;
+}
+
+.bar-heading-image,
+.bar-heading-title {
+	display: inline-block;
+}
+
+.bar-heading {
+	padding-bottom: 20px;
+}
+
+.drink-item {
+	height: 80px;
+	border-bottom: 1px solid rgba(161,175,192,0.3);
+}

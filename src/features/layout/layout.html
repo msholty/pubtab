@@ -1,0 +1,19 @@
+<div class="pt-layout-wrapper">
+	<nav ng-hide="LayoutCtrlVm.hideMenu" class="responsive-menu" ng-click="LayoutCtrlVm.hideMenu = true">
+		<ul>
+			<li ng-repeat="option in LayoutCtrlVm.menuOptions" ui-sref="{{option.state}}">
+				<span class="menu-option">{{option.title}}</span>
+			</li>
+		</ul>
+	</nav>
+	<span class="page-container" 
+		ng-class="{shoved: !LayoutCtrlVm.hideMenu}">
+		<header class="universal-header">
+			<span class="menu-callout glyphicon glyphicon-menu-hamburger" aria-hidden="true"
+				ng-click="LayoutCtrlVm.hideMenu = !LayoutCtrlVm.hideMenu"></span>
+			<span class="universal-header-title">Pubtab!</span>
+		</header>
+		<section ui-view class="ui-view-container"></section>
+		<footer></footer>
+	</span>
+</div>

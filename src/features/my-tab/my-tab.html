@@ -1,0 +1,16 @@
+<div class="my-tab-container">
+	<div ng-if="MyTabCtrlVm.drinks.length === 0" 
+		class="alert alert-danger" role="alert">Oh Snap! You have no drinks on your tab. Go make an order!
+	</div>
+	<div ng-if="MyTabCtrlVm.drinks.length !== 0">
+		<ul>
+			<li ng-repeat="drink in MyTabCtrlVm.drinks track by $index">
+				<img class="beer-image" ng-src="{{drink.image}}"></img>
+				<span class="beer-title">{{drink.name}}</span>
+				<span class="beer-price">{{drink.price | currency}}</span>
+			</li>
+		</ul>
+		Total Price: {{MyTabCtrlVm.totalPrice | currency}}
+		<button class="btn btn-default" ng-click="MyTabCtrlVm.clearDrinks()">Delete All Drinks</button>
+	</div>
+</div>

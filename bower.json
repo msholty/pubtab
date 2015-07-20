@@ -1,0 +1,24 @@
+{
+  "name": "pubtab",
+  "version": "0.0.0",
+  "description": "Keep track of your pub tabs!",
+  "main": "index.html",
+  "authors": [
+    "Michael Sholty"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "~0.2.15",
+    "angular": "~1.4.3",
+    "bootstrap": "~3.3.5",
+    "angular-cookies": "~1.4.3",
+    "angular-local-storage": "~0.2.2"
+  }
+}

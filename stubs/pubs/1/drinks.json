@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Heineken",
+		"price": "4.50",
+		"image": "http://www.ebizradio.com/wp-content/uploads/2014/07/Heineken-Brand.png"
+	},
+	{
+		"name": "Stella",
+		"price": "5.00",
+		"image": "http://36.media.tumblr.com/c85cfd964520a45338d6ac6d6d8b1f28/tumblr_mp0vcnYQNv1rqwoico1_1280.jpg"
+	},
+	{
+		"name": "Keystone Light",
+		"price": "4.50",
+		"image": "http://www.blueridgebeverage.com/site/assets/files/1295/picture_3.286x0.png"
+	},
+	{
+		"name": "La Fin Du Monde",
+		"price": "7.50",
+		"image": "https://theyearinbeer.files.wordpress.com/2012/02/lafin.gif"
+	}
+]

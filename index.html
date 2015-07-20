@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="pubtab">
+    <head>
+        <base href="/">
+        <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+        <link href="src/features/layout/layout.css" rel="stylesheet">
+        <link href="src/features/home/home.css" rel="stylesheet">
+        <link href="src/features/detail/detail.css" rel="stylesheet">
+        <link href="src/features/pt.css" rel="stylesheet">
+    </head>
+    <body>
+        <pt-layout></pt-layout>
+
+        <!-- bowerjs -->
+        <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+        <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+        <script type="text/javascript" src="bower_components/angular-local-storage/dist/angular-local-storage.js"></script>
+
+        <!-- Pubtab files -->
+        <script src="src/features/home/home.module.js"></script>
+        <script src="src/features/home/home.controller.js"></script>
+
+        <script src="src/features/layout/layout.module.js"></script>
+        <script src="src/features/layout/layout.directive.js"></script>
+
+        <script src="src/features/listing/listing.module.js"></script>
+        <script src="src/features/listing/listing.controller.js"></script>
+
+        <script src="src/features/detail/detail.module.js"></script>
+        <script src="src/features/detail/detail.controller.js"></script>
+
+        <script src="src/features/my-tab/my-tab.module.js"></script>
+        <script src="src/features/my-tab/my-tab.controller.js"></script>
+
+        <script src="src/features/pt.module.js"></script>
+
+        <script src="src/features/drinkOrder.factory.js"></script>
+    </body>
+</html>

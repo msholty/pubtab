@@ -1,0 +1,21 @@
+<div class="detail-wrapper">
+	<header class="bar-heading">
+		<img class="bar-heading-image" ng-src="{{DetailCtrlVm.pub.image}}">
+		<h1 class="bar-heading-title">{{DetailCtrlVm.pub.name}}</h1>
+	</header>
+	<ul>
+		<li class="drink-item"
+			ng-repeat="drink in DetailCtrlVm.drinks">
+			<img class="beer-image" ng-src="{{drink.image}}"></img>
+			<span class="beer-title">{{drink.name}}</span>
+			<span class="beer-price">{{drink.price | currency}}</span>
+			<span class="count-control">
+				<button type="button" class="btn btn-default" ng-click="DetailCtrlVm.decreaseCount(drink)">-</button>
+				<span class="drink-count">{{drink.count}}</span>
+				<button type="button" class="btn btn-default" ng-click="DetailCtrlVm.increaseCount(drink)">+</button>
+			</span>
+		</li>
+	</ul>
+
+	<button type="button" class="btn btn-default" ng-click="DetailCtrlVm.submitDrinks()">Add Selections To List</button>
+</div>

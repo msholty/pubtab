@@ -1,0 +1,5 @@
+<ul class="listing-wrapper">
+	<li ng-repeat="pub in ::ListingCtrlVm.pubs">
+		<a ui-sref="detail({id: pub.id})"><h1>{{pub.name}}</h1></a>
+	</li>
+</ul>
