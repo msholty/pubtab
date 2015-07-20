@@ -28,3 +28,6 @@ Nice to haves
 
 - Sort by nearest bar (getting your phones coordinates and filtering by shortest distance)
 - filter a pub's menu by manufacturer, price range, beer type (requires more verbose data)
+- hamburger icon not an image, but a glyphicon (bootstrap) I had some issues getting it to render correctly and ran out of time
+
+Time spent on this project ~4 hours
