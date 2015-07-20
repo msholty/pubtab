@@ -1,4 +1,15 @@
-notes
+How to run this demo
+====================
+
+- Install Node.js
+- grunt install grunt-cli
+- npm install
+- bower install
+- grunt serve
+
+If you get any error messages, be sure that all the correct npm/bower libraries were installed. It will warn you which one doesn't exist if that is the case
+
+Notes
 ====================
 
 - I consolodated latitude && longitude into a single json param since I feel like it would reduce the payload a bit - every bit counts. The serve that would return this would just consolodate that for us.
@@ -12,6 +23,8 @@ notes
 		- serve with express rather than grunt contrib connect
 - regarding styles, i put them in css files because i didn't set up a less task to auto build as i was developing, then inject that into my index.html. with more time I would set something like that up
 
-Nice to haves -
+Nice to haves
+====================
+
 - Sort by nearest bar (getting your phones coordinates and filtering by shortest distance)
 - filter a pub's menu by manufacturer, price range, beer type (requires more verbose data)
