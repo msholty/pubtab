@@ -28,8 +28,12 @@ pt-layout {
 .menu-callout {
 	height: 40px;
 	width: 40px;
-	float: left;
+	background-size: 40px 40px;
     margin-left: 5px;
+    background-image: url(hamburger.png);
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
 }
 
 .responsive-menu {
@@ -38,6 +42,7 @@ pt-layout {
 	height: 100%;
 	display: inline-block;
 	background-color: rgba(0, 0, 0, 0);
+	border-right: 1px solid rgba(161,175,192,0.3);
 }
 
 .responsive-menu li {
